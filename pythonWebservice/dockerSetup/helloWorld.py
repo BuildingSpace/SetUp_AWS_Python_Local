@@ -1,3 +1,4 @@
+from flask import Flask
 from math import sqrt
 
 app = Flask(__name__)
@@ -28,5 +29,3 @@ def isItPrime(number):
         answer = "That's indian bread!"
         return answer
 
-if __name__ == '__main__':
-    app.run(debug=True)
